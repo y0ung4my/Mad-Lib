@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.6.0.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>A fantastical adventure</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Fill in the blanks to write your story!</h1>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="person1">A name</label>
+          <input id="person1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="person2">Another name</label>
+          <input id="person2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="animal">An animal</label>
+          <input id="animal" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="exclamation">An exclamation</label>
+          <input id="exclamation" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="verb">A past tense verb</label>
+          <input id="verb" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="noun">A noun</label>
+          <input id="noun" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Show me the story!</button>
+      </form>
+    </div>
+
+    <div id="story">
+      <h1>A chill time</h1>
+      <p>
+        Today, <span class="person1"></span>, NOT <span class="person2"></span>, was jumping up and down, but then a pleasant <span class="animal"></span> smiled coyly. "<span class="exclamation"></span>", <span class="person1"></span> smiled, too. They <span class="verb"></span> at a relaxed pace, and when they were bored, <span class="person1"></span>, NOT <span class="person2"></span>, gave each other a giant <span class="noun"></span>.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
